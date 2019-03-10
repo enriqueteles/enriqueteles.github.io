@@ -45,7 +45,7 @@ div {
     font-family: 'Major Mono Display', monospace;
 }
 
-main h1, main h2, main h3, main p {
+main h1, main h2, main h3, main p, main ul {
     margin: 0;
     color: #000;
 }
@@ -142,3 +142,9 @@ header a:hover {
     opacity: .6;
     padding: 100% 50px;
 }
+
+#dot li {
+    border-left: 3px solid black;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}    
