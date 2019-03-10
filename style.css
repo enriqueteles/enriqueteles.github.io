@@ -1,0 +1,139 @@
+
+html, body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, footer, main {
+    color: #fff;
+    display: block;
+    background-color: black;
+    width: 100%;
+}
+
+footer {
+    height: 50px;
+    padding: 30px;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+div {
+    width: 1000px;
+    position: inline-block;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Major Mono Display', monospace;
+}
+
+main h1, main h2, main h3, main p {
+    margin: 0;
+    color: rgb(54, 43, 43)
+}
+
+.inside h1 {
+    font-size: 200px;
+    padding-top: 80px;
+
+}
+
+.inside h2 {
+    font-size: 80px;
+    text-align: left;
+    padding-top: 80px;
+}
+
+.inside p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+#no-pad {
+    padding-top: 0;
+}
+
+.img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+#introduction {
+    background-image: url("img/intro.jpg");
+}
+
+#about {
+    background-image: url(img/about.jpg);
+}
+
+#contact {
+    background-image: url(img/contact.jpg)
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    opacity: 0.6;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+li {
+    display: inline-block;
+    height: 50px;
+    text-align: left;
+    padding: 25px 40px;
+    font-size: 25px;
+}
+
+.item {
+    width: 100px;
+    text-align: left;
+}
+
+.right {
+    position: relative;
+    text-align: right;
+}
+
+
+.quote {
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #fff;
+    opacity: .6;
+    padding: 100% 50px;
+}
