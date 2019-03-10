@@ -2,6 +2,7 @@
 html, body {
     margin: 0 auto;
     width: 100%;
+    overflow-x: hidden;
 }
 
 ul {
@@ -46,7 +47,7 @@ div {
 
 main h1, main h2, main h3, main p {
     margin: 0;
-    color: rgb(54, 43, 43)
+    color: #000;
 }
 
 .inside h1 {
@@ -74,7 +75,9 @@ main h1, main h2, main h3, main p {
 .img {
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 700px;
+    height: auto;
+    min-height: 500px;
+    max-height: auto;
     width: 100%;
     margin: 0;
     position: relative;
@@ -85,18 +88,18 @@ main h1, main h2, main h3, main p {
 }
 
 #about {
-    background-image: url(img/about.jpg);
+    background-image: url(img/about.png);
 }
 
 #contact {
-    background-image: url(img/contact.jpg)
+    background-image: url(img/contact.png)
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .logo:hover {
@@ -117,15 +120,17 @@ li {
 }
 
 .right {
-    position: relative;
     text-align: right;
 }
 
-
 .quote {
     font-family: 'Josefin Slab', serif;
-    font-size: 30px;
+    font-size: 18px;
     text-align: center;
+}
+
+small {
+    padding: 10px;
 }
 
 a {
